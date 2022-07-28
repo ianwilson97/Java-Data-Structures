@@ -1,13 +1,11 @@
-import java.util.LinkedList;
-
-public class Node {
+class Node {
     int data; // data stored in this node
     public Node next; // reference to the next node in the list
     public Node(int data) {
         this.data = data; // initialize data
     }
 }
-public class LinkedList {
+class LinkedList {
     public Node head; // reference to the first node in the list
 
     public void append(int data) {
